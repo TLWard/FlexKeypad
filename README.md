@@ -26,7 +26,8 @@ import { withSizeUpdates } from 'flexkeypadnumber/es/SizeHOC';
 const FlexKeypadHOC = withSizeUpdates(FlexKeypad);
 
 ##### Render HTML
-  <FlexKeypadHOC open={this.state.open} close={this.CloseFlexKeypad.bind(this)} />
+
+  "<FlexKeypadHOC open={this.state.open} close={this.CloseFlexKeypad.bind(this)} />"
   
   
 
