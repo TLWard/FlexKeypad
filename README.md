@@ -19,8 +19,8 @@ An auto resizing numeric keypad in react
 
 ##### Import
 
-import { FlexKeypad } from 'flexkeypadnumber/es/FlexKeypad'
-import { withSizeUpdates } from 'flexkeypadnumber/es/SizeHOC';
+import { FlexKeypad } from 'flexkeypadnumber/es/FlexKeypad'  
+import { withSizeUpdates } from 'flexkeypadnumber/es/SizeHOC'  
 
 ##### withSizeUpdates creates a HOC from FlexKeypad to recieve the height and width
 const FlexKeypadHOC = withSizeUpdates(FlexKeypad);
