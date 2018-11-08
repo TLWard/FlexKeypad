@@ -22,7 +22,7 @@ An auto resizing numeric keypad in react
 import { FlexKeypad } from 'flexkeypadnumber/es/FlexKeypad'  
 import { withSizeUpdates } from 'flexkeypadnumber/es/SizeHOC'  
 
-##### withSizeUpdates creates a HOC from FlexKeypad to recieve the height and width
+##### withSizeUpdates creates a HOC from FlexKeypad to receive the height and width
 const FlexKeypadHOC = withSizeUpdates(FlexKeypad);
 
 ##### Render HTML
